@@ -1,0 +1,17 @@
+.photo-content {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.photo-content .container .ssection {
+    margin: 0px;
+    padding: 0px;
+}
+
+.photo-content .container .single-blogs .blogs-cap {
+    text-align: center;
+}
+
+#photoGallery {
+    background-size: 100%;
+}

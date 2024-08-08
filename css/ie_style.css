@@ -1,0 +1,30 @@
+@charset "utf-8";
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+/* ie 수정 */
+main .bestItem {display: none !important;}
+main .insta_slider {display: none !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end*/
+/*end*/
+/*end*/
+/*end*/}

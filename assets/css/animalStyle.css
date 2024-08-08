@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.modal1,
+.modal2,
+.modal3,
+.modal4,
+.modal5,
+.modal6 {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 2000;
+}
+
+.modal1 .modal-content,
+.modal2 .modal-content,
+.modal3 .modal-content,
+.modal4 .modal-content,
+.modal5 .modal-content,
+.modal6 .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1200px;
+    height: 680px;
+    padding: 40px 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.active {
+    display: flex;
+}
+
+.services-cap>li {
+    text-align: left;
+    list-style-image: url(../img/elements/primary-check2.png);
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top: 4px;
+    padding: 2px;
+}
+
+/* 질병 안내 팝업 */
+.content-Box {
+    margin-top: 65px;
+    width: 100%;
+    height: calc(100% - 65px);
+    overflow-y: auto;
+}
+
+.modal-text::-webkit-scrollbar {
+    width: 14px;
+}
+
+.modal-text::-webkit-scrollbar-thumb {
+    background-color: #c2c2c2;
+    border-radius: 10px;
+}
+
+.modal-text::-webkit-scrollbar-track {
+    background-color: #ececec;
+    border-radius: 10px;
+}
+
+.modal-text h2 {
+    position: absolute;
+    left: 50px;
+    top: 51px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.modal-text .close1-wrap, .modal-text .close2-wrap, .modal-text .close3-wrap, .modal-text .close4-wrap,.modal-text .close5-wrap,.modal-text .close6-wrap {
+    position: absolute;
+    border: none;
+    top: 50px;
+    right: 50px;
+    width: 19px;
+    height: 20px;
+    font-size: 0;
+    line-height: 0;
+    background: url("../img/elements/btn_layer_close.png") no-repeat;
+    background-size: 19px auto;
+    cursor: pointer;
+}
+
+.modal-text h2>b {
+    color: #ff7474;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.modal-text dl * {
+    color: black;
+}
+
+.modal-text dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cir > li {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 22px;
+    list-style-type: disc;
+    font-weight: 400;
+  }
+
+.modal-text dl dt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 20%;
+    background-color: #fff7fe;
+    border: 1px solid #f1b8b5;
+    border-right-width: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.modal-text dl dd {
+    margin-bottom: 10px;
+    padding: 30px;
+    width: 78.5%;
+    border: 1px solid #c2c2c2;
+    border-left-width: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content-Box::-webkit-scrollbar {
+    width: 14px;
+}
+
+.content-Box::-webkit-scrollbar-thumb {
+    background-color: #c2c2c2;
+    border-radius: 10px;
+}
+
+.content-Box::-webkit-scrollbar-track {
+    background-color: #ececec;
+    border-radius: 10px;
+}
+
+
+
+.disease_pop2 {
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+}
+
+.disease_pop2 .anwer {
+    display: table;
+    margin-bottom: 25px;
+    padding: 29px 50px;
+    width: 100%;
+    height: auto;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-indent: -22px;
+    word-break: keep-all;
+}
+
+.disease_pop2 .anwer p {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.disease_pop2 .anwer p:before {
+    content: "A. ";
+    font-weight: 600;
+}
+
+.disease_pop::-webkit-scrollbar {
+    width: 14px;
+}
+
+.disease_pop::-webkit-scrollbar-thumb {
+    background-color: #c2c2c2;
+    border-radius: 10px;
+}
+
+.disease_pop::-webkit-scrollbar-track {
+    background-color: #ececec;
+    border-radius: 10px;
+}

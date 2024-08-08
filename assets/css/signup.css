@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.sign-content {
+    margin: 0 auto;
+    vertical-align: middle;
+    align-items: center;
+    font-family: "Noto Sans KR", sans-serif;
+
+}
+
+table {
+    width: 400px;
+    height: 550px;
+    margin: 0 auto;
+
+}
+
+#tdEmail {
+    display: inline-flex;
+}
+
+table>:first-child>tr:first-child>td {
+    display: inline-flex;
+}
+
+table>:first-child>tr:first-child>td>p {
+    margin-left: 190px;
+    font-size: 13px;
+    color: #f44a40;
+}
+
+.email {
+    width: 245px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-color: lightgray;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    float: left;
+    background-color: rgb(233, 233, 233);
+}
+
+.text {
+    width: 380px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+.text-id{
+    width: 270px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+select {
+    width: 100px;
+    height: 32px;
+    font-size: 15px;
+    border: 1;
+    border-color: lightgray;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    float: left;
+}
+
+#trId {
+    display: inline-flex;
+}
+
+.err-msg {
+    font-size: 13px;
+    color: #f44a40;
+}
+
+.button {
+    width: 100px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    background-color: #f44a40;
+    text-align: center;
+    float: left;
+    margin-left: 5px;
+}
+
+.button:hover {
+    background-color: #fff;
+    border: 1px solid #f44a40;
+    color: #f44a40;
+    cursor: pointer;
+}
+
+.signup-btn {
+    width: 385px;
+    height: 50px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f44a40;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-btn:hover {
+    background-color: #fff;
+    border: 1px solid #f44a40;
+    color: #f44a40;
+    cursor: pointer;
+}

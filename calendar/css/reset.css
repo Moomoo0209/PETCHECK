@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body>div {
+    width: 100rem;
+    height: 895px;
+	margin:0;
+	padding:0;
+	font-family: 'Noto Sans KR';
+    border: 6px solid #ff7474;
+    border-radius: 10px;
+}
+li {list-style:none;}
+a {text-decoration:none;}
+table {border-collapse: collapse}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+	margin:0;
+	padding:0;
+}
+img { vertical-align: top;}
