@@ -2,10 +2,12 @@
 <h4>반려동물 건강 및 관리 정보 플랫폼 개발 세미 프로젝트(HTML/CSS 중점)</h4>
 
 <br>
+<br>
 
 <p>- 반려동물 건강 관리에 관한 신뢰할 수 있는 정보 제공</p>
 <p>- 편리한 반려동물 관리 서비스 제공</p>
 
+<br>
 <br>
 
 <b>사용 기술</b>
@@ -16,6 +18,7 @@
   <img src="https://img.shields.io/badge/css3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />&nbsp
 </div>
 
+<br>
 <br>
 
 <b>주요기능</b>
